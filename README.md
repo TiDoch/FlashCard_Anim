@@ -1,7 +1,7 @@
 ## Lab 4
 
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/TiDoch/FlashCard_Anim/blob/main/Gif.gif" width=200><br>
 
 
 ## Required
