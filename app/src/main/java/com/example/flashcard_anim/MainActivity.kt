@@ -114,22 +114,7 @@ class MainActivity : AppCompatActivity() {
         flashcard_reponse.setOnClickListener {
             flashcard_question.visibility = View.VISIBLE
             flashcard_reponse.visibility = View.INVISIBLE
-
-            answerSideView.animate()
-                .rotationY(90f)
-                .setDuration(200)
-                .withEndAction {
-                    answerSideView.visibility = View.INVISIBLE
-                    // Affichage de la question
-                    questionSideView.visibility = View.VISIBLE
-                    // Animation pour faire tourner la question vers le devant
-                    questionSideView.rotationY = -90f
-                    questionSideView.animate()
-                        .rotationY(0f)
-                        .setDuration(200)
-                        .start()
-                }
-                .start()
+            
 
         }
         isShowingAnswers.setOnClickListener {
